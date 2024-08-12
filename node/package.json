@@ -25,7 +25,7 @@
     "format": "p() { prettier ${@:- --write} '**/*.{css,js,json,md,scss,ts,tsx}'; }; p"
   },
   "dependencies": {
-    "node-gyp-build": "^4.2.3",
+    "node-gyp-build": "^4.8.1",
     "uuid": "^8.3.0"
   },
   "devDependencies": {
