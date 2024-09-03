@@ -64,7 +64,7 @@ jobs:
 
       - name: Download JNI libraries
         id: download
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: jniLibs
           path: java/android/src/main/jniLibs/
